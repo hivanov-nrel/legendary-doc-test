@@ -16,12 +16,12 @@ def get_random_ingredients(kind=None):
     
     Parameters
     ----------
-    kind: list[str] or None
+    kind : list[str] or None
         Optional "kind" of ingredients.
     
-    Return
-    ------
-    return: list[str]
+    Returns
+    -------
+    return : list[str]
         The ingredients list.
     """
     return ["shells", "gorgonzola", "parsley"]
