@@ -41,6 +41,7 @@ jobs:
 
       - name: create git commit for push
         run: |
+          rm -r docs/*
           mv -v sphinx/build/html/* docs/
           cd docs
           touch .nojekyll
