@@ -9,8 +9,8 @@ dynamic = ["version", "description"]
 
 [project.optional-dependencies]
 doc = [
-    "sphinx"
-    "myst-parser"
-    "sphinx_rtd_theme"
-    "nbsphinx"
+    "sphinx",
+    "myst-parser",
+    "sphinx_rtd_theme",
+    "nbsphinx",
 ]
