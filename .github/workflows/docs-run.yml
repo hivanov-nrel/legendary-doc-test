@@ -51,6 +51,6 @@ jobs:
           git config user.email github-actions@github.com
           git add .
           git commit -m "build-docs"
-          git push test-branch --force
+          git push origin master:test-branch --force
           
           
