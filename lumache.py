@@ -1,8 +1,8 @@
 """
-Test description doing some funky testing!
+Updating description to see what changes!!!
 """
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 
 class InvalidKindError(Exception):
@@ -24,4 +24,4 @@ def get_random_ingredients(kind=None):
     return : list[str]
         The ingredients list.
     """
-    return ["shells", "gorgonzola", "parsley"]
+    return ["shells", "gorgonzola", "paprika"]
